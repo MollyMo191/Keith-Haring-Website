@@ -1,0 +1,456 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.High_Five{
+    
+    z-index: 10;
+    height: 20vh;
+    width: 30vh;
+    position: absolute;
+    float: left;
+    margin-top: 53vh;
+    margin-left: 7vw;
+}
+
+.BG{
+    /*position: fixed;  
+    width: 100%; */
+    height: 100vh;
+    background-image: url('../images/BW_BG.png');
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.Color{
+    /*position: fixed;  
+    width: 100%; */
+    height: 100vh;
+    background-image: url('../images/Color_BG.png');
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+/*.BG_IMG{
+    width: 100%;
+    height: auto;
+}*/
+
+.Beginning_Haring_Title{
+    background-color: white;
+    height: 40vh;
+    /*height: 50%;*/
+    width: 27vw;
+    position: relative;
+    float: right;
+    margin-top: 30vh;
+}
+
+.Haring_Logo{
+    height: 84%;
+    height: 80%;
+    margin: 4vh;
+    
+}
+
+.Menu_Haring_Title{
+    background-color: white;
+    height: 100vh;
+    width: 27vw;
+    position: relative;
+    float: right;
+    margin-top: 0px;
+}
+
+.Menu_Haring_Logo{
+    height: 22%;
+    margin-left: 5%;
+    margin: 3vh;
+    margin-bottom: -1vh;
+}
+
+nav{
+    font-family: 'Lato', sans-serif;
+    margin-left: 5%;
+}
+
+ul{
+    list-style: none;
+    margin-left: -10%;
+}
+
+.hover-underline-animation{
+    position: relative;
+}
+
+.hover-underline-animation:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    visibility: hidden;
+    transition: all .3s ease-in-out;
+}
+
+.hover-underline-animation:hover:before{
+    visibility: visible;
+    width: 100%;
+}
+
+.Menu_Title{
+    font-weight: 700;
+    font-size: 4vh;
+    margin-bottom: -1.5vh;
+}
+
+.Menu_Items{
+    font-size: 2.25vh;
+}
+
+.LinkedArms{
+    height: 22%;
+    margin-left: 5%;
+    margin-right: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.Scroll_To_Top{
+    height: 30vh;
+    position: absolute;
+    position: fixed;
+    bottom: 0;
+    right: 1vw;
+    z-index: 10;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.Menu_Haring_Title_PAGES{
+    background-color: white;
+    height: 100vh;
+    width: 22vw;
+    position: relative;
+    float: left;
+    margin-top: 0px;
+    position: fixed;
+}
+
+h1{
+    font-family: 'Londrina Solid', sans-serif;
+    font-weight: 300;
+    float: left;
+    position: absolute;
+    font-size: 4.5vw;
+    margin-top: 0.5vh;
+    margin-left: 24vw;
+    margin-bottom: 0px;
+    color: black;
+}
+
+h2{
+    position: absolute;
+    float: left;
+    margin-top: 0;
+    font-family: 'Lato', 'sans-serif';
+    font-size: 2vw;
+}
+
+.Section_Header{
+    background-color: white;
+    position: relative;
+    top: 6vw;
+    height: 6vh;
+    margin-left: 24vw;
+    z-index: 1;
+}
+
+.Page_Content_1978{
+    background-color: white;
+    position: relative;
+    top: 6vw;
+    height: 27vw;
+    margin-left: 24vw;
+}
+
+.Page_Content_1979{
+    background-color: white;
+    position: relative;
+    top: 6vw;
+    height: 16vw;
+    margin-left: 24vw;
+}
+
+.Page_Content_1980{
+    background-color: white;
+    position: relative;
+    top: 6vw;
+    height: 48vw;
+    margin-left: 24vw;
+}
+
+.Page_Content_1981{
+    background-color: white;
+    position: relative;
+    top: 6vw;
+    height: 83vw;
+    margin-left: 24vw;
+}
+
+.Page_Content_1982{
+    background-color: white;
+    position: relative;
+    top: 6vw;
+    height: 74vw;
+    margin-left: 24vw;
+}
+
+.Page_Content_1983{
+    background-color: white;
+    position: relative;
+    top: 6vw;
+    height: 74vw;
+    margin-left: 24vw;
+}
+
+.Page_Content_1984{
+    background-color: white;
+    position: relative;
+    top: 6vw;
+    height: 85vw;
+    margin-left: 24vw;
+}
+
+.Page_Content_1985{
+    background-color: white;
+    position: relative;
+    top: 6vw;
+    height: 80vw;
+    margin-left: 24vw;
+}
+
+.Page_Content_1986{
+    background-color: white;
+    position: relative;
+    top: 6vw;
+    height: 93.5vw;
+    margin-left: 24vw;
+}
+
+.Page_Content_1987{
+    background-color: white;
+    position: relative;
+    top: 6vw;
+    height: 77vw;
+    margin-left: 24vw;
+}
+
+.Page_Content_1988{
+    background-color: white;
+    position: relative;
+    top: 6vw;
+    height: 70vw;
+    margin-left: 24vw;
+}
+
+.Page_Content_1989{
+    background-color: white;
+    position: relative;
+    top: 6vw;
+    height: 80vw;
+    margin-left: 24vw;
+}
+
+.Page_Content_1990{
+    background-color: white;
+    position: relative;
+    top: 6vw;
+    height: 56vw;
+    margin-left: 24vw;
+}
+
+.Page_Content_Biography{
+    background-color: white;
+    position: relative;
+    top: 6vw;
+    height: 87vw;
+    margin-left: 24vw;
+    padding-right: 8.75vw;
+}
+
+.Page_Content_Biography img{
+    position: relative;
+    float: left;
+    display: flex;
+    padding: 0;
+    width: 16vw;
+    height: auto;
+    border-bottom-width: 3vh;
+    border-right-width: 3vh;
+    border-style: solid;
+    border-color: white;
+}
+
+.Page_Content_Own_Words{
+    background-color: white;
+    position: relative;
+    top: 6vw;
+    height: 280vw;
+    margin-left: 24vw;
+    padding-right: 8.75vw;
+}
+
+.Page_Content_Own_Words img{
+    position: relative;
+    float: left;
+    display: flex;
+    padding: 0;
+    width: 16vw;
+    height: auto;
+    border-bottom-width: 3vh;
+    border-right-width: 3vh;
+    border-style: solid;
+    border-color: white;
+}
+
+.Haring_1{
+    width: 30vw !important;
+    height: auto;
+}
+
+.Haring_2{
+    border-bottom-width: 0 !important;
+}
+
+._1{
+    width: 25vw !important;
+    height: auto;
+}
+
+.Haring_4{
+    width: 30vw !important;
+    height: auto;
+}
+
+.Haring_5{
+    width: 100% !important;
+    height: auto;
+}
+
+.Haring_6{
+    width: 25vw !important;
+    height: auto;
+}
+
+.Final_Quote{
+    font-family: 'Londrina Solid', sans-serif !important;
+    font-weight: 300 !important;
+    float: left !important;
+    font-size: 3vw !important;
+}
+
+.About_Foundation{
+    font-family: 'Lato', 'sans-serif';
+    font-size: 2.15vh;
+    position: relative;
+    text-align: justify;
+    background-color: white;
+    position: relative;
+    top: 6vw;
+    height: 18vw;
+    margin-left: 24vw;
+    padding-right: 8.75vw;
+}
+
+.Research_Foundation{
+    font-family: 'Lato', 'sans-serif';
+    font-size: 2.15vh;
+    position: relative;
+    text-align: justify;
+    background-color: white;
+    position: relative;
+    top: 6vw;
+    height: 16vw;
+    margin-left: 24vw;
+    padding-right: 8.75vw;
+}
+
+a.Contact_Link{
+    color: #1AB5EE !important;
+    font-weight: 700 !important;
+}
+
+a.Contact_Link:visited{
+    color: #266d86 !important;
+}
+
+a.Contact_Link:hover{
+    color: #9ddaf0 !important;
+}
+
+.Body_Text{
+    font-family: 'Lato', 'sans-serif';
+    font-size: 2.15vh;
+    position: relative;
+    text-align: justify;
+}
+
+.RED_MENU{
+    color: #D93636;
+    font-weight: 900;
+    font-size: 2.5vh;
+}
+
+.YELLOW_MENU{
+    color: #FFCD00;
+    font-weight: 900;
+    font-size: 2.5vh;
+}
+
+.BLUE_MENU{
+    color: #1AB5EE;
+    font-weight: 900;
+    font-size: 2.5vh;
+}
+
+.row {
+    position: absolute;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .column {
+    flex: 29%;
+    max-width: 29%;
+    padding-right: 1vh;
+  }
+  
+  .column img {
+    margin-top: 0;
+    vertical-align: middle;
+    width: 100%;
+    padding-bottom: 1vh;
+  }
+
